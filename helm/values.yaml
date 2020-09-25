@@ -12,8 +12,8 @@
 ##
 image:
   registry: docker.io
-  repository: madavi/newspring
-  tag: 7
+  repository: alekyadock/testhelm1
+  tag: 4
   ## Specify a imagePullPolicy
   ## Defaults to 'Always' if image tag is 'latest', else set to 'IfNotPresent'
   ## ref: http://kubernetes.io/docs/user-guide/images/#pre-pulling-images
