@@ -42,6 +42,7 @@ pipeline {
                sh "helm repo add stable https://charts.helm.sh/stable"
                sh "helm repo update"
                sh "helm install springboot helm ."
+               sh "helm install --generate-name stable/prometheus-operator"
 
 }
 }  
