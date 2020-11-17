@@ -41,7 +41,7 @@ pipeline {
             steps {
                sh "helm repo add stable https://charts.helm.sh/stable"
                sh "helm repo update"
-               sh "helm install springboot ."
+               sh "helm install springboot helm ."
 
 }
 }  
