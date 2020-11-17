@@ -1,6 +1,13 @@
 HELP.md
+<<<<<<< HEAD
 /target/
 !.mvn/wrapper/maven-wrapper.jar
+=======
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+>>>>>>> e2086ada276a56262d1cf13dc05cc61f95a7a539
 
 ### STS ###
 .apt_generated
@@ -23,7 +30,17 @@ HELP.md
 /dist/
 /nbdist/
 /.nb-gradle/
+<<<<<<< HEAD
 /build/
 
 ### VS Code ###
 .vscode/
+=======
+build/
+
+### VS Code ###
+.vscode/
+/.mvn/
+/mvnw
+/mvnw.cmd
+>>>>>>> e2086ada276a56262d1cf13dc05cc61f95a7a539
